@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "headphones-spotify-import"
+version = "0.2.0"
+description = "Download all your spotify music automagically through Headphones."
+authors = ["DatScreamer <micahbfriesen.mf@gmail.com>", "Dylan Whichard <dylan@whichard.com>"]
+license = "GNU General Public License v3.0"
+
+[tool.poetry.scripts]
+headphones-spotify-import = "headphones_spotify_import.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.27.1"
+colorama = { version = "^0.4.4", markers = "sys_platform=='win32'" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
