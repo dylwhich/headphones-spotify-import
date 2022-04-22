@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
     description="Collects albums from spotify playlists and imports them to a headphones server",
-    epilog="To generate CSV playlists from spotify, see https://github.com/DatScreamer/headphones-spotify-import#Instructions"
+    epilog="To generate CSV playlists from spotify, see https://github.com/dylwhich/headphones-spotify-import#Usage"
 )
 
 parser.add_argument(
